@@ -1,0 +1,54 @@
+/* Style for the main window */
+.root {
+    -fx-background-color: #f0f0f0;
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-pref-width: 120px;
+    -fx-pref-height: 30px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+/* Style for text areas */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-pref-width: 100%;
+    -fx-pref-height: 200px;
+}
+
+/* Style for dialogs */
+.dialog-grid {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.dialog-label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.dialog-field {
+    -fx-pref-width: 300px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+.dialog-button {
+    -fx-font-size: 14px;
+    -fx-pref-width: 100px;
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+}
+
+.dialog-button:hover {
+    -fx-background-color: #2980b9;
+}
